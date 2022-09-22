@@ -1,0 +1,90 @@
+body{
+    background-color: black;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+a{
+    color: white;
+    text-decoration: none;
+}
+
+ul{
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+    align-items: center;
+    padding: 16px;
+}
+
+nav a:hover{
+    color: green;
+}
+
+nav a{
+ font-size: 20px;;
+}
+
+input{
+    width: 100%;
+    padding: 8px 0px;
+    margin: 8px;
+    border-radius: 5px;
+}
+
+input[type=text]{
+    height: 100px;
+}
+
+button{
+    background-color: white;
+    border: none;
+    width: 100px;
+    height: 30px;
+    border-radius: 5px;
+    margin-left: 2%;
+}
+
+img{
+    width: 150px;
+    height: 150px;
+}
+
+.center{
+    text-align: center;
+}
+
+header img{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    border: 5px solid yellow;
+}
+
+h1{
+    color: yellow;
+    text-align: center;
+}
+
+h2{
+    color: lightskyblue;
+    text-align: center;
+}
+
+.container{
+    padding: 0px 50px;
+    margin:0 auto;
+    max-width: 100ch;
+}
+
+#email{
+    text-align: center;
+}
+
+#menssage{
+    text-align: center;
+}
+
+#nome{
+    text-align: center;
+}
